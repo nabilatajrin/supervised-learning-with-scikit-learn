@@ -1,0 +1,4 @@
+model.fit(X, y)
+model = Model()
+from sklearn.module import Model
+model.predict(X_new)
