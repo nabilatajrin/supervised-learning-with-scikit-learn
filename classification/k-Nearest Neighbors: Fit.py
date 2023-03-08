@@ -2,8 +2,8 @@
 from sklearn.neighbors import KNeighborsClassifier 
 
 # Create arrays for the features and the target variable
-y = churn_df["churn"].values
 X = churn_df[["account_length", "customer_service_calls"]].values
+y = churn_df["churn"].values
 
 # Create a KNN classifier with 6 neighbors
 knn = KNeighborsClassifier(n_neighbors = 6)
