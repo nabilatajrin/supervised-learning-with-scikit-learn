@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 plt.scatter(X, y, color="blue")
 
 # Create line plot
-plt.plot(X, y, color="red")
+plt.plot(X, predictions, color="red")
 plt.xlabel("Radio Expenditure ($)")
 plt.ylabel("Sales ($)")
 
