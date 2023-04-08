@@ -1,3 +1,4 @@
+# Import numpy
 import numpy as np
 
 # Create X from the radio column's values
