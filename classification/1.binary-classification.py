@@ -1,5 +1,4 @@
-In [1]:
-churn_df
+In [1]: churn_df
 Out[1]:
 
       account_length  total_day_charge  total_eve_charge  total_night_charge  total_intl_charge  customer_service_calls  churn
